@@ -1,0 +1,13 @@
+#tads {
+	background-color: #eadd9a;
+}
+div#tads::after {
+    content: "Advertisement";
+    position: absolute;
+    bottom: 0;
+    right: 6px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    pointer-events: none;
+}

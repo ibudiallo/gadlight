@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YouDupe Extension</title>
+	<script src="popup.js"></script>
+	<style>
+		body{margin:0;padding:0;font-family: Helvetica, Arial, sans;}
+		ul,li {list-style: none;margin:0;padding:0;}
+		.page-header {
+			background-color:#2980b9;
+			display: flex;
+			padding:6px;
+		}
+		.page-hdr__moto {
+			padding-top:10px;
+		}
+		.page-hdr__logo{
+			width:64px;
+		}
+		.page-hdr__logo img {
+			width: 100%;
+		}
+		.page-hdr__title {
+			color:#fff;
+			line-height: 1em;
+			margin:0;
+		}
+		.page-hdr__desc {
+			color:#fafafa;
+			font-size:12px;
+			margin:0;
+			white-space: nowrap;
+		}
+		.ver-line {
+			color: #555;
+			font-size: 12px;
+			margin: 0;
+			padding: 0px 6px;
+			text-align: right;
+		}
+		.page-footer {
+			display: none;
+		}
+		.p-footer__nav {
+			display: flex;
+		}
+		.p-footer__nav li {
+			padding:3px 6px;
+		}
+		.p-footer__nav li a {
+			color:#333;
+		}
+	</style>
+</head>
+<body>
+	<header class="page-header">
+		<div class="page-hdr__logo">
+			<img src="images/icon32.png" alt="GadLight"/>
+		</div>
+		<div class="page-hdr__moto">
+			<h1 class="page-hdr__title">GadLight</h1>
+			<p class="page-hdr__desc">Highlight Google Ads</p>
+		</div>
+	</header>
+	<div>
+		<p id="version-line" class="ver-line"></p>
+	</div>
+</body>
+</html>
