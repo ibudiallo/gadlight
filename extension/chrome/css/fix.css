@@ -1,4 +1,5 @@
-#tads {
+#tads,
+#tads .ads-fr .mnr-c {
 	background-color: #eadd9a;
 }
 div#tads::after {
