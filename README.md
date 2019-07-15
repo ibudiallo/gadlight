@@ -2,6 +2,9 @@
 
 Highlight google search results that are ads
 
+* [Chrome Extension](https://chrome.google.com/webstore/detail/gadlight/ocgmjfkihacphicojjdffcikklpejhad)
+* [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/gadlight/)
+
 ## Why?
 
 Not too long ago, Google decided they no longer needed to clearly demark ads from search results. They replaced the signature yellow background, that clearly encompassed ads, with an 11px font size text that spelled the word `Ad`.
