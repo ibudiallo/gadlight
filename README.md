@@ -1,4 +1,4 @@
-# GadLight
+# GadLight ![logo](https://raw.githubusercontent.com/ibudiallo/gadlight/master/extension/chrome/images/icon32.png)
 
 Highlight google search results that are ads
 
