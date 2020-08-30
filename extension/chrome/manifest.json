@@ -1,7 +1,7 @@
 {
 	"name": "GadLight",
 	"short_name": "GadLight",
-	"version" : "0.1.1",
+	"version" : "0.1.2",
 	"description": "Clearly highlight Google ads on google search",
 	"background": {
 		"scripts": ["background.js"]

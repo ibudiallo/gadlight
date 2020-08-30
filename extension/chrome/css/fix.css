@@ -1,13 +1,34 @@
 #tads,
-#tads .ads-fr .mnr-c {
+#tads .ads-fr .mnr-c,
+#tads .ads-fr .d5oMvf {
+	/*
 	background-color: #eadd9a;
+	*/
 }
-div#tads::after {
+#tads .ads-fr {
+	position: relative;
+}
+#tads .ads-fr::after {
+	position: absolute;
+	background-color: #eadd9aaa;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	content: " ";
+	display: block;
+	pointer-events: none;
+	border-radius: 8px;
+}
+div#tads .C4eCVc {
+	position: relative;
+}
+div#tads .C4eCVc::after {
     content: "Advertisement";
     position: absolute;
     bottom: 0;
     right: 6px;
-    font-size: 50px;
+    font-size: 32px;
     color: #fff;
     text-shadow: 0 0 2px #000;
     pointer-events: none;
