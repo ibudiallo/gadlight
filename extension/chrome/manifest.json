@@ -6,7 +6,7 @@
 	"background": {
 		"scripts": ["background.js"]
 	},
-	"permissions": ["https://www.google.com/*","activeTab","storage"],
+	"permissions": ["https://www.google.com/*","activeTab"],
 	"page_action": {
 		"default_popup": "popup.html",
 		"default_icon": {
